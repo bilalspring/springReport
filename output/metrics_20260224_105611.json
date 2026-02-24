@@ -1,0 +1,1766 @@
+{
+  "demographics": {
+    "total_customers": 300,
+    "active_customers": 300,
+    "inactive_customers": 0,
+    "new_customers": 164,
+    "returning_customers": 136,
+    "age_distribution": {
+      "18-24": 0.19666666666666666,
+      "25-34": 0.36666666666666664,
+      "35-44": 0.24,
+      "45+": 0.19666666666666666
+    },
+    "age_distribution_pct": {
+      "18-24": 19.7,
+      "25-34": 36.7,
+      "35-44": 24.0,
+      "45+": 19.7
+    },
+    "gender_distribution": {
+      "F": 0.53,
+      "M": 0.45,
+      "Autre": 0.02
+    },
+    "gender_distribution_pct": {
+      "F": 53.0,
+      "M": 45.0,
+      "Autre": 2.0
+    },
+    "postcode_heatmap": {
+      "75008": 26,
+      "75012": 23,
+      "75001": 23,
+      "75002": 21,
+      "75011": 20,
+      "75005": 19,
+      "75007": 19,
+      "75004": 19,
+      "75009": 17,
+      "75003": 14
+    },
+    "local_pct": 76.0,
+    "tourist_pct": 24.0,
+    "avg_spend_by_age": {
+      "18-24": 144.88,
+      "25-34": 128.57,
+      "35-44": 153.87,
+      "45+": 133.7
+    },
+    "top_local_postcodes": {
+      "75008": 26,
+      "75012": 23,
+      "75001": 23,
+      "75002": 21,
+      "75011": 20
+    }
+  },
+  "behavior": {
+    "total_transactions": 952,
+    "total_scans": 1186,
+    "scans_without_purchase": 787,
+    "scan_to_purchase_rate": 33.6,
+    "avg_basket_value": 140.41,
+    "median_basket_value": 119.99,
+    "avg_items_per_basket": 2.4,
+    "avg_purchases_per_customer": 3.2,
+    "max_purchases_per_customer": 18,
+    "avg_monthly_frequency": 0.53,
+    "avg_weekly_frequency": 0.12,
+    "avg_repurchase_cycle_days": 18.6,
+    "median_repurchase_cycle_days": 10.0,
+    "segments": {
+      "one_time": {
+        "count": 164,
+        "pct": 54.7
+      },
+      "occasional": {
+        "count": 90,
+        "pct": 30.0
+      },
+      "loyal": {
+        "count": 46,
+        "pct": 15.3
+      }
+    },
+    "basket_value_distribution": {
+      "0-20": 39,
+      "20-50": 169,
+      "50-100": 186,
+      "100-200": 334,
+      "200+": 224
+    }
+  },
+  "products": {
+    "product_ranking": [
+      {
+        "product_id": "P013",
+        "product_name": "Montre Minimaliste",
+        "category": "Accessoires",
+        "total_qty": 93,
+        "total_revenue": 13949.07,
+        "n_transactions": 82,
+        "rank": 1,
+        "tier": "Top"
+      },
+      {
+        "product_id": "P009",
+        "product_name": "Sac Cabas Cuir",
+        "category": "Accessoires",
+        "total_qty": 85,
+        "total_revenue": 11049.15,
+        "n_transactions": 79,
+        "rank": 2,
+        "tier": "Top"
+      },
+      {
+        "product_id": "P018",
+        "product_name": "Boots Chelsea",
+        "category": "Chaussures",
+        "total_qty": 74,
+        "total_revenue": 8879.26,
+        "n_transactions": 70,
+        "rank": 3,
+        "tier": "Top"
+      },
+      {
+        "product_id": "P008",
+        "product_name": "Blazer Casual",
+        "category": "Mode",
+        "total_qty": 98,
+        "total_revenue": 8819.02,
+        "n_transactions": 86,
+        "rank": 4,
+        "tier": "Top"
+      },
+      {
+        "product_id": "P015",
+        "product_name": "Sneakers Blanches",
+        "category": "Chaussures",
+        "total_qty": 92,
+        "total_revenue": 8279.08,
+        "n_transactions": 85,
+        "rank": 5,
+        "tier": "Top"
+      },
+      {
+        "product_id": "P016",
+        "product_name": "Mocassins Cuir",
+        "category": "Chaussures",
+        "total_qty": 67,
+        "total_revenue": 7369.33,
+        "n_transactions": 61,
+        "rank": 6,
+        "tier": "Top"
+      },
+      {
+        "product_id": "P003",
+        "product_name": "Veste Légère",
+        "category": "Mode",
+        "total_qty": 81,
+        "total_revenue": 6479.19,
+        "n_transactions": 78,
+        "rank": 7,
+        "tier": "Top"
+      },
+      {
+        "product_id": "P002",
+        "product_name": "Jean Slim Fit",
+        "category": "Mode",
+        "total_qty": 126,
+        "total_revenue": 6298.74,
+        "n_transactions": 115,
+        "rank": 8,
+        "tier": "Top"
+      },
+      {
+        "product_id": "P011",
+        "product_name": "Écharpe Soie",
+        "category": "Accessoires",
+        "total_qty": 103,
+        "total_revenue": 6178.97,
+        "n_transactions": 96,
+        "rank": 9,
+        "tier": "Top"
+      },
+      {
+        "product_id": "P021",
+        "product_name": "Parfum Floral 50ml",
+        "category": "Beauté",
+        "total_qty": 83,
+        "total_revenue": 5809.17,
+        "n_transactions": 75,
+        "rank": 10,
+        "tier": "Top"
+      },
+      {
+        "product_id": "P007",
+        "product_name": "Chemise Lin",
+        "category": "Mode",
+        "total_qty": 100,
+        "total_revenue": 5499.0,
+        "n_transactions": 88,
+        "rank": 11,
+        "tier": "Middle"
+      },
+      {
+        "product_id": "P005",
+        "product_name": "Pull Col Roulé",
+        "category": "Mode",
+        "total_qty": 106,
+        "total_revenue": 4768.94,
+        "n_transactions": 94,
+        "rank": 12,
+        "tier": "Middle"
+      },
+      {
+        "product_id": "P006",
+        "product_name": "Short Chino",
+        "category": "Mode",
+        "total_qty": 116,
+        "total_revenue": 3478.84,
+        "n_transactions": 103,
+        "rank": 13,
+        "tier": "Middle"
+      },
+      {
+        "product_id": "P004",
+        "product_name": "Robe Été Fleurie",
+        "category": "Mode",
+        "total_qty": 85,
+        "total_revenue": 3399.15,
+        "n_transactions": 80,
+        "rank": 14,
+        "tier": "Middle"
+      },
+      {
+        "product_id": "P010",
+        "product_name": "Ceinture Cuir",
+        "category": "Accessoires",
+        "total_qty": 94,
+        "total_revenue": 3289.06,
+        "n_transactions": 86,
+        "rank": 15,
+        "tier": "Middle"
+      },
+      {
+        "product_id": "P017",
+        "product_name": "Sandales Été",
+        "category": "Chaussures",
+        "total_qty": 82,
+        "total_revenue": 3279.18,
+        "n_transactions": 77,
+        "rank": 16,
+        "tier": "Middle"
+      },
+      {
+        "product_id": "P020",
+        "product_name": "Sérum Vitamine C",
+        "category": "Beauté",
+        "total_qty": 76,
+        "total_revenue": 3039.24,
+        "n_transactions": 68,
+        "rank": 17,
+        "tier": "Middle"
+      },
+      {
+        "product_id": "P028",
+        "product_name": "Plaid Coton",
+        "category": "Maison",
+        "total_qty": 55,
+        "total_revenue": 2749.45,
+        "n_transactions": 46,
+        "rank": 18,
+        "tier": "Middle"
+      },
+      {
+        "product_id": "P023",
+        "product_name": "Palette Ombres",
+        "category": "Beauté",
+        "total_qty": 67,
+        "total_revenue": 2344.33,
+        "n_transactions": 64,
+        "rank": 19,
+        "tier": "Middle"
+      },
+      {
+        "product_id": "P001",
+        "product_name": "T-Shirt Basique Coton",
+        "category": "Mode",
+        "total_qty": 111,
+        "total_revenue": 2218.89,
+        "n_transactions": 100,
+        "rank": 20,
+        "tier": "Middle"
+      },
+      {
+        "product_id": "P022",
+        "product_name": "Rouge à Lèvres Mat",
+        "category": "Beauté",
+        "total_qty": 93,
+        "total_revenue": 2138.07,
+        "n_transactions": 86,
+        "rank": 21,
+        "tier": "Bottom"
+      },
+      {
+        "product_id": "P019",
+        "product_name": "Crème Hydratante Bio",
+        "category": "Beauté",
+        "total_qty": 70,
+        "total_revenue": 2099.3,
+        "n_transactions": 67,
+        "rank": 22,
+        "tier": "Bottom"
+      },
+      {
+        "product_id": "P014",
+        "product_name": "Casquette Coton",
+        "category": "Accessoires",
+        "total_qty": 103,
+        "total_revenue": 2058.97,
+        "n_transactions": 92,
+        "rank": 23,
+        "tier": "Bottom"
+      },
+      {
+        "product_id": "P026",
+        "product_name": "Coussin Velours",
+        "category": "Maison",
+        "total_qty": 63,
+        "total_revenue": 1889.37,
+        "n_transactions": 59,
+        "rank": 24,
+        "tier": "Bottom"
+      },
+      {
+        "product_id": "P029",
+        "product_name": "Vase Design",
+        "category": "Maison",
+        "total_qty": 53,
+        "total_revenue": 1854.47,
+        "n_transactions": 47,
+        "rank": 25,
+        "tier": "Bottom"
+      },
+      {
+        "product_id": "P012",
+        "product_name": "Lunettes Soleil",
+        "category": "Accessoires",
+        "total_qty": 74,
+        "total_revenue": 1849.26,
+        "n_transactions": 69,
+        "rank": 26,
+        "tier": "Bottom"
+      },
+      {
+        "product_id": "P024",
+        "product_name": "Shampoing Naturel",
+        "category": "Beauté",
+        "total_qty": 88,
+        "total_revenue": 1319.12,
+        "n_transactions": 80,
+        "rank": 27,
+        "tier": "Bottom"
+      },
+      {
+        "product_id": "P025",
+        "product_name": "Bougie Parfumée",
+        "category": "Maison",
+        "total_qty": 52,
+        "total_revenue": 1299.48,
+        "n_transactions": 45,
+        "rank": 28,
+        "tier": "Bottom"
+      },
+      {
+        "product_id": "P030",
+        "product_name": "Set Serviettes Bio",
+        "category": "Maison",
+        "total_qty": 62,
+        "total_revenue": 1239.38,
+        "n_transactions": 57,
+        "rank": 29,
+        "tier": "Bottom"
+      },
+      {
+        "product_id": "P027",
+        "product_name": "Mug Céramique Artisanal",
+        "category": "Maison",
+        "total_qty": 44,
+        "total_revenue": 747.56,
+        "n_transactions": 41,
+        "rank": 30,
+        "tier": "Bottom"
+      }
+    ],
+    "top_10_products": [
+      {
+        "rank": 1,
+        "product_name": "Montre Minimaliste",
+        "category": "Accessoires",
+        "total_qty": 93,
+        "total_revenue": 13949.07
+      },
+      {
+        "rank": 2,
+        "product_name": "Sac Cabas Cuir",
+        "category": "Accessoires",
+        "total_qty": 85,
+        "total_revenue": 11049.15
+      },
+      {
+        "rank": 3,
+        "product_name": "Boots Chelsea",
+        "category": "Chaussures",
+        "total_qty": 74,
+        "total_revenue": 8879.26
+      },
+      {
+        "rank": 4,
+        "product_name": "Blazer Casual",
+        "category": "Mode",
+        "total_qty": 98,
+        "total_revenue": 8819.02
+      },
+      {
+        "rank": 5,
+        "product_name": "Sneakers Blanches",
+        "category": "Chaussures",
+        "total_qty": 92,
+        "total_revenue": 8279.08
+      },
+      {
+        "rank": 6,
+        "product_name": "Mocassins Cuir",
+        "category": "Chaussures",
+        "total_qty": 67,
+        "total_revenue": 7369.33
+      },
+      {
+        "rank": 7,
+        "product_name": "Veste Légère",
+        "category": "Mode",
+        "total_qty": 81,
+        "total_revenue": 6479.19
+      },
+      {
+        "rank": 8,
+        "product_name": "Jean Slim Fit",
+        "category": "Mode",
+        "total_qty": 126,
+        "total_revenue": 6298.74
+      },
+      {
+        "rank": 9,
+        "product_name": "Écharpe Soie",
+        "category": "Accessoires",
+        "total_qty": 103,
+        "total_revenue": 6178.97
+      },
+      {
+        "rank": 10,
+        "product_name": "Parfum Floral 50ml",
+        "category": "Beauté",
+        "total_qty": 83,
+        "total_revenue": 5809.17
+      }
+    ],
+    "bottom_5_products": [
+      {
+        "rank": 26,
+        "product_name": "Lunettes Soleil",
+        "category": "Accessoires",
+        "total_qty": 74,
+        "total_revenue": 1849.26
+      },
+      {
+        "rank": 27,
+        "product_name": "Shampoing Naturel",
+        "category": "Beauté",
+        "total_qty": 88,
+        "total_revenue": 1319.12
+      },
+      {
+        "rank": 28,
+        "product_name": "Bougie Parfumée",
+        "category": "Maison",
+        "total_qty": 52,
+        "total_revenue": 1299.48
+      },
+      {
+        "rank": 29,
+        "product_name": "Set Serviettes Bio",
+        "category": "Maison",
+        "total_qty": 62,
+        "total_revenue": 1239.38
+      },
+      {
+        "rank": 30,
+        "product_name": "Mug Céramique Artisanal",
+        "category": "Maison",
+        "total_qty": 44,
+        "total_revenue": 747.56
+      }
+    ],
+    "revenue_by_category": {
+      "Mode": 40961.77,
+      "Accessoires": 38374.48,
+      "Chaussures": 27806.85,
+      "Beauté": 16749.23,
+      "Maison": 9779.71
+    },
+    "units_by_category": {
+      "Mode": 823,
+      "Accessoires": 552,
+      "Beauté": 477,
+      "Maison": 329,
+      "Chaussures": 315
+    },
+    "sell_through": [
+      {
+        "product_id": "P013",
+        "total_qty": 93,
+        "initial_stock": 185,
+        "sell_through_rate": 50.3
+      },
+      {
+        "product_id": "P009",
+        "total_qty": 85,
+        "initial_stock": 150,
+        "sell_through_rate": 56.7
+      },
+      {
+        "product_id": "P018",
+        "total_qty": 74,
+        "initial_stock": 125,
+        "sell_through_rate": 59.2
+      },
+      {
+        "product_id": "P008",
+        "total_qty": 98,
+        "initial_stock": 288,
+        "sell_through_rate": 34.0
+      },
+      {
+        "product_id": "P015",
+        "total_qty": 92,
+        "initial_stock": 235,
+        "sell_through_rate": 39.1
+      },
+      {
+        "product_id": "P016",
+        "total_qty": 67,
+        "initial_stock": 71,
+        "sell_through_rate": 94.4
+      },
+      {
+        "product_id": "P003",
+        "total_qty": 81,
+        "initial_stock": 72,
+        "sell_through_rate": 112.5
+      },
+      {
+        "product_id": "P002",
+        "total_qty": 126,
+        "initial_stock": 114,
+        "sell_through_rate": 110.5
+      },
+      {
+        "product_id": "P011",
+        "total_qty": 103,
+        "initial_stock": 152,
+        "sell_through_rate": 67.8
+      },
+      {
+        "product_id": "P021",
+        "total_qty": 83,
+        "initial_stock": 213,
+        "sell_through_rate": 39.0
+      },
+      {
+        "product_id": "P007",
+        "total_qty": 100,
+        "initial_stock": 233,
+        "sell_through_rate": 42.9
+      },
+      {
+        "product_id": "P005",
+        "total_qty": 106,
+        "initial_stock": 54,
+        "sell_through_rate": 196.3
+      },
+      {
+        "product_id": "P006",
+        "total_qty": 116,
+        "initial_stock": 134,
+        "sell_through_rate": 86.6
+      },
+      {
+        "product_id": "P004",
+        "total_qty": 85,
+        "initial_stock": 90,
+        "sell_through_rate": 94.4
+      },
+      {
+        "product_id": "P010",
+        "total_qty": 94,
+        "initial_stock": 281,
+        "sell_through_rate": 33.5
+      },
+      {
+        "product_id": "P017",
+        "total_qty": 82,
+        "initial_stock": 297,
+        "sell_through_rate": 27.6
+      },
+      {
+        "product_id": "P020",
+        "total_qty": 76,
+        "initial_stock": 220,
+        "sell_through_rate": 34.5
+      },
+      {
+        "product_id": "P028",
+        "total_qty": 55,
+        "initial_stock": 278,
+        "sell_through_rate": 19.8
+      },
+      {
+        "product_id": "P023",
+        "total_qty": 67,
+        "initial_stock": 196,
+        "sell_through_rate": 34.2
+      },
+      {
+        "product_id": "P001",
+        "total_qty": 111,
+        "initial_stock": 216,
+        "sell_through_rate": 51.4
+      },
+      {
+        "product_id": "P022",
+        "total_qty": 93,
+        "initial_stock": 86,
+        "sell_through_rate": 108.1
+      },
+      {
+        "product_id": "P019",
+        "total_qty": 70,
+        "initial_stock": 292,
+        "sell_through_rate": 24.0
+      },
+      {
+        "product_id": "P014",
+        "total_qty": 103,
+        "initial_stock": 99,
+        "sell_through_rate": 104.0
+      },
+      {
+        "product_id": "P026",
+        "total_qty": 63,
+        "initial_stock": 211,
+        "sell_through_rate": 29.9
+      },
+      {
+        "product_id": "P029",
+        "total_qty": 53,
+        "initial_stock": 199,
+        "sell_through_rate": 26.6
+      },
+      {
+        "product_id": "P012",
+        "total_qty": 74,
+        "initial_stock": 249,
+        "sell_through_rate": 29.7
+      },
+      {
+        "product_id": "P024",
+        "total_qty": 88,
+        "initial_stock": 121,
+        "sell_through_rate": 72.7
+      },
+      {
+        "product_id": "P025",
+        "total_qty": 52,
+        "initial_stock": 159,
+        "sell_through_rate": 32.7
+      },
+      {
+        "product_id": "P030",
+        "total_qty": 62,
+        "initial_stock": 276,
+        "sell_through_rate": 22.5
+      },
+      {
+        "product_id": "P027",
+        "total_qty": 44,
+        "initial_stock": 193,
+        "sell_through_rate": 22.8
+      }
+    ],
+    "revenue_by_age_category": {
+      "('18-24', 'Accessoires')": 10023.35,
+      "('18-24', 'Beauté')": 3345.02,
+      "('18-24', 'Chaussures')": 7549.14,
+      "('18-24', 'Maison')": 1990.32,
+      "('18-24', 'Mode')": 12442.41,
+      "('25-34', 'Accessoires')": 11013.4,
+      "('25-34', 'Beauté')": 6130.34,
+      "('25-34', 'Chaussures')": 6619.21,
+      "('25-34', 'Maison')": 2742.06,
+      "('25-34', 'Mode')": 10652.82,
+      "('35-44', 'Accessoires')": 11188.57,
+      "('35-44', 'Beauté')": 4215.71,
+      "('35-44', 'Chaussures')": 10148.91,
+      "('35-44', 'Maison')": 2601.14,
+      "('35-44', 'Mode')": 11082.86,
+      "('45+', 'Accessoires')": 6149.16,
+      "('45+', 'Beauté')": 3058.16,
+      "('45+', 'Chaussures')": 3489.59,
+      "('45+', 'Maison')": 2446.19,
+      "('45+', 'Mode')": 6783.68
+    },
+    "top_category_by_age": {
+      "18-24": "Mode",
+      "25-34": "Accessoires",
+      "35-44": "Accessoires",
+      "45+": "Mode"
+    },
+    "bestseller_revenue_share": 43.6,
+    "long_tail_count": 0
+  },
+  "baskets": {
+    "avg_basket": {
+      "items": 2.6,
+      "unique_products": 2.4,
+      "categories": 1.9,
+      "value": 140.41
+    },
+    "top_product_pairs": [
+      {
+        "product_a": "Jean Slim Fit",
+        "product_b": "T-Shirt Basique Coton",
+        "frequency": 38
+      },
+      {
+        "product_a": "Sneakers Blanches",
+        "product_b": "T-Shirt Basique Coton",
+        "frequency": 24
+      },
+      {
+        "product_a": "Ceinture Cuir",
+        "product_b": "Jean Slim Fit",
+        "frequency": 22
+      },
+      {
+        "product_a": "Short Chino",
+        "product_b": "Sneakers Blanches",
+        "frequency": 21
+      },
+      {
+        "product_a": "Jean Slim Fit",
+        "product_b": "Sneakers Blanches",
+        "frequency": 20
+      },
+      {
+        "product_a": "Short Chino",
+        "product_b": "T-Shirt Basique Coton",
+        "frequency": 19
+      },
+      {
+        "product_a": "Crème Hydratante Bio",
+        "product_b": "Shampoing Naturel",
+        "frequency": 19
+      },
+      {
+        "product_a": "Blazer Casual",
+        "product_b": "Jean Slim Fit",
+        "frequency": 16
+      },
+      {
+        "product_a": "Sac Cabas Cuir",
+        "product_b": "Écharpe Soie",
+        "frequency": 15
+      },
+      {
+        "product_a": "Blazer Casual",
+        "product_b": "Short Chino",
+        "frequency": 14
+      }
+    ],
+    "cross_sell_affinity": [
+      {
+        "product_a": "Crème Hydratante Bio",
+        "product_b": "Shampoing Naturel",
+        "co_occurrences": 19,
+        "confidence_a_to_b": 28.4,
+        "confidence_b_to_a": 23.8,
+        "lift": 3.37
+      },
+      {
+        "product_a": "Jean Slim Fit",
+        "product_b": "T-Shirt Basique Coton",
+        "co_occurrences": 38,
+        "confidence_a_to_b": 33.0,
+        "confidence_b_to_a": 38.0,
+        "lift": 3.15
+      },
+      {
+        "product_a": "Boots Chelsea",
+        "product_b": "Bougie Parfumée",
+        "co_occurrences": 9,
+        "confidence_a_to_b": 12.9,
+        "confidence_b_to_a": 20.0,
+        "lift": 2.72
+      },
+      {
+        "product_a": "Sneakers Blanches",
+        "product_b": "T-Shirt Basique Coton",
+        "co_occurrences": 24,
+        "confidence_a_to_b": 28.2,
+        "confidence_b_to_a": 24.0,
+        "lift": 2.69
+      },
+      {
+        "product_a": "Bougie Parfumée",
+        "product_b": "Coussin Velours",
+        "co_occurrences": 7,
+        "confidence_a_to_b": 15.6,
+        "confidence_b_to_a": 11.9,
+        "lift": 2.51
+      },
+      {
+        "product_a": "Crème Hydratante Bio",
+        "product_b": "Sérum Vitamine C",
+        "co_occurrences": 11,
+        "confidence_a_to_b": 16.4,
+        "confidence_b_to_a": 16.2,
+        "lift": 2.3
+      },
+      {
+        "product_a": "Short Chino",
+        "product_b": "Sneakers Blanches",
+        "co_occurrences": 21,
+        "confidence_a_to_b": 20.4,
+        "confidence_b_to_a": 24.7,
+        "lift": 2.28
+      },
+      {
+        "product_a": "Parfum Floral 50ml",
+        "product_b": "Sac Cabas Cuir",
+        "co_occurrences": 14,
+        "confidence_a_to_b": 18.7,
+        "confidence_b_to_a": 17.7,
+        "lift": 2.25
+      },
+      {
+        "product_a": "Robe Été Fleurie",
+        "product_b": "Sandales Été",
+        "co_occurrences": 14,
+        "confidence_a_to_b": 17.5,
+        "confidence_b_to_a": 18.2,
+        "lift": 2.16
+      },
+      {
+        "product_a": "Ceinture Cuir",
+        "product_b": "Jean Slim Fit",
+        "co_occurrences": 22,
+        "confidence_a_to_b": 25.6,
+        "confidence_b_to_a": 19.1,
+        "lift": 2.12
+      }
+    ],
+    "association_rules": [
+      "Si Crème Hydratante Bio → 28.4% chance que Shampoing Naturel soit acheté",
+      "Si Jean Slim Fit → 33.0% chance que T-Shirt Basique Coton soit acheté",
+      "Si Boots Chelsea → 12.9% chance que Bougie Parfumée soit acheté",
+      "Si Sneakers Blanches → 28.2% chance que T-Shirt Basique Coton soit acheté",
+      "Si Bougie Parfumée → 15.6% chance que Coussin Velours soit acheté"
+    ],
+    "top_category_combos": {
+      "Mode": 124,
+      "Accessoires": 97,
+      "Beauté": 76,
+      "Accessoires + Mode": 67,
+      "Beauté + Mode": 57
+    },
+    "bundle_opportunities": [
+      {
+        "products": "Boots Chelsea + Bougie Parfumée",
+        "lift": 2.72,
+        "current_co_purchases": 9
+      },
+      {
+        "products": "Bougie Parfumée + Coussin Velours",
+        "lift": 2.51,
+        "current_co_purchases": 7
+      },
+      {
+        "products": "Mug Céramique Artisanal + Veste Légère",
+        "lift": 2.08,
+        "current_co_purchases": 7
+      }
+    ]
+  },
+  "trends": {
+    "sales_by_hour": {
+      "transactions": {
+        "0": 0,
+        "1": 0,
+        "2": 0,
+        "3": 0,
+        "4": 0,
+        "5": 0,
+        "6": 0,
+        "7": 0,
+        "8": 0,
+        "9": 55,
+        "10": 52,
+        "11": 135,
+        "12": 100,
+        "13": 139,
+        "14": 64,
+        "15": 51,
+        "16": 86,
+        "17": 95,
+        "18": 91,
+        "19": 44,
+        "20": 40,
+        "21": 0,
+        "22": 0,
+        "23": 0
+      },
+      "revenue": {
+        "0": 0.0,
+        "1": 0.0,
+        "2": 0.0,
+        "3": 0.0,
+        "4": 0.0,
+        "5": 0.0,
+        "6": 0.0,
+        "7": 0.0,
+        "8": 0.0,
+        "9": 7241.54,
+        "10": 7137.67,
+        "11": 20705.06,
+        "12": 14925.21,
+        "13": 18539.43,
+        "14": 8749.34,
+        "15": 7949.62,
+        "16": 12983.77,
+        "17": 11742.75,
+        "18": 12937.68,
+        "19": 6084.81,
+        "20": 4675.16,
+        "21": 0.0,
+        "22": 0.0,
+        "23": 0.0
+      }
+    },
+    "peak_hour": 13,
+    "peak_hour_label": "13h00 - 14h00",
+    "sales_by_day": {
+      "transactions": {
+        "Lundi": 127,
+        "Mardi": 142,
+        "Mercredi": 125,
+        "Jeudi": 130,
+        "Vendredi": 131,
+        "Samedi": 163,
+        "Dimanche": 134
+      },
+      "revenue": {
+        "Lundi": 16637.76,
+        "Mardi": 19331.29,
+        "Mercredi": 17996.71,
+        "Jeudi": 18787.62,
+        "Vendredi": 20053.52,
+        "Samedi": 22503.77,
+        "Dimanche": 18361.37
+      }
+    },
+    "peak_day": "Samedi",
+    "sales_by_month": {
+      "transactions": {
+        "2025-07": 57,
+        "2025-08": 132,
+        "2025-09": 193,
+        "2025-10": 192,
+        "2025-11": 202,
+        "2025-12": 176
+      },
+      "revenue": {
+        "2025-07": 6820.65,
+        "2025-08": 18455.48,
+        "2025-09": 27266.01,
+        "2025-10": 27892.89,
+        "2025-11": 29367.64,
+        "2025-12": 23869.37
+      },
+      "avg_basket": {
+        "2025-07": 119.66,
+        "2025-08": 139.81,
+        "2025-09": 141.27,
+        "2025-10": 145.28,
+        "2025-11": 145.38,
+        "2025-12": 135.62
+      },
+      "unique_customers": {
+        "2025-07": 40,
+        "2025-08": 83,
+        "2025-09": 115,
+        "2025-10": 102,
+        "2025-11": 122,
+        "2025-12": 115
+      }
+    },
+    "monthly_summary": [
+      {
+        "month": "2025-07",
+        "transactions": 57,
+        "revenue": 6820.65,
+        "avg_basket": 119.66,
+        "unique_customers": 40
+      },
+      {
+        "month": "2025-08",
+        "transactions": 132,
+        "revenue": 18455.48,
+        "avg_basket": 139.81,
+        "unique_customers": 83
+      },
+      {
+        "month": "2025-09",
+        "transactions": 193,
+        "revenue": 27266.01,
+        "avg_basket": 141.27,
+        "unique_customers": 115
+      },
+      {
+        "month": "2025-10",
+        "transactions": 192,
+        "revenue": 27892.89,
+        "avg_basket": 145.28,
+        "unique_customers": 102
+      },
+      {
+        "month": "2025-11",
+        "transactions": 202,
+        "revenue": 29367.64,
+        "avg_basket": 145.38,
+        "unique_customers": 122
+      },
+      {
+        "month": "2025-12",
+        "transactions": 176,
+        "revenue": 23869.37,
+        "avg_basket": 135.62,
+        "unique_customers": 115
+      }
+    ],
+    "product_velocity": [
+      {
+        "product_name": "Jean Slim Fit",
+        "total_units": 126,
+        "days_span": 162,
+        "units_per_day": 0.78
+      },
+      {
+        "product_name": "Short Chino",
+        "total_units": 116,
+        "days_span": 166,
+        "units_per_day": 0.7
+      },
+      {
+        "product_name": "T-Shirt Basique Coton",
+        "total_units": 111,
+        "days_span": 172,
+        "units_per_day": 0.65
+      },
+      {
+        "product_name": "Pull Col Roulé",
+        "total_units": 106,
+        "days_span": 164,
+        "units_per_day": 0.65
+      },
+      {
+        "product_name": "Écharpe Soie",
+        "total_units": 103,
+        "days_span": 164,
+        "units_per_day": 0.63
+      },
+      {
+        "product_name": "Casquette Coton",
+        "total_units": 103,
+        "days_span": 173,
+        "units_per_day": 0.6
+      },
+      {
+        "product_name": "Blazer Casual",
+        "total_units": 98,
+        "days_span": 168,
+        "units_per_day": 0.58
+      },
+      {
+        "product_name": "Rouge à Lèvres Mat",
+        "total_units": 93,
+        "days_span": 165,
+        "units_per_day": 0.56
+      },
+      {
+        "product_name": "Sneakers Blanches",
+        "total_units": 92,
+        "days_span": 165,
+        "units_per_day": 0.56
+      },
+      {
+        "product_name": "Chemise Lin",
+        "total_units": 100,
+        "days_span": 179,
+        "units_per_day": 0.56
+      }
+    ],
+    "month_over_month_growth": {
+      "2025-08": 170.6,
+      "2025-09": 47.7,
+      "2025-10": 2.3,
+      "2025-11": 5.3,
+      "2025-12": -18.7
+    },
+    "trend_signal": "📉 Décélération des ventes"
+  },
+  "forecast": {
+    "product_forecasts": [
+      {
+        "product_id": "P001",
+        "product_name": "T-Shirt Basique Coton",
+        "category": "Mode",
+        "current_stock": 172,
+        "avg_weekly_demand": 4.625,
+        "forecast_4w_demand": 18,
+        "safety_stock": 5,
+        "days_until_stockout": 260,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 14
+      },
+      {
+        "product_id": "P002",
+        "product_name": "Jean Slim Fit",
+        "category": "Mode",
+        "current_stock": 32,
+        "avg_weekly_demand": 5.25,
+        "forecast_4w_demand": 21,
+        "safety_stock": 3,
+        "days_until_stockout": 43,
+        "overstock_risk": "Modéré",
+        "reorder_qty": 0,
+        "lead_time_days": 7
+      },
+      {
+        "product_id": "P003",
+        "product_name": "Veste Légère",
+        "category": "Mode",
+        "current_stock": 2,
+        "avg_weekly_demand": 3.5217391304347827,
+        "forecast_4w_demand": 14,
+        "safety_stock": 3,
+        "days_until_stockout": 4,
+        "overstock_risk": "Bas",
+        "reorder_qty": 15,
+        "lead_time_days": 7
+      },
+      {
+        "product_id": "P004",
+        "product_name": "Robe Été Fleurie",
+        "category": "Mode",
+        "current_stock": 1,
+        "avg_weekly_demand": 3.5416666666666665,
+        "forecast_4w_demand": 14,
+        "safety_stock": 4,
+        "days_until_stockout": 2,
+        "overstock_risk": "Bas",
+        "reorder_qty": 17,
+        "lead_time_days": 14
+      },
+      {
+        "product_id": "P005",
+        "product_name": "Pull Col Roulé",
+        "category": "Mode",
+        "current_stock": 29,
+        "avg_weekly_demand": 4.608695652173913,
+        "forecast_4w_demand": 18,
+        "safety_stock": 2,
+        "days_until_stockout": 44,
+        "overstock_risk": "Modéré",
+        "reorder_qty": 0,
+        "lead_time_days": 3
+      },
+      {
+        "product_id": "P006",
+        "product_name": "Short Chino",
+        "category": "Mode",
+        "current_stock": 69,
+        "avg_weekly_demand": 5.043478260869565,
+        "forecast_4w_demand": 20,
+        "safety_stock": 4,
+        "days_until_stockout": 96,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 10
+      },
+      {
+        "product_id": "P007",
+        "product_name": "Chemise Lin",
+        "category": "Mode",
+        "current_stock": 82,
+        "avg_weekly_demand": 4.0,
+        "forecast_4w_demand": 16,
+        "safety_stock": 4,
+        "days_until_stockout": 144,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 7
+      },
+      {
+        "product_id": "P008",
+        "product_name": "Blazer Casual",
+        "category": "Mode",
+        "current_stock": 168,
+        "avg_weekly_demand": 3.92,
+        "forecast_4w_demand": 16,
+        "safety_stock": 3,
+        "days_until_stockout": 300,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 7
+      },
+      {
+        "product_id": "P009",
+        "product_name": "Sac Cabas Cuir",
+        "category": "Accessoires",
+        "current_stock": 8,
+        "avg_weekly_demand": 3.6956521739130435,
+        "forecast_4w_demand": 15,
+        "safety_stock": 5,
+        "days_until_stockout": 15,
+        "overstock_risk": "Bas",
+        "reorder_qty": 12,
+        "lead_time_days": 14
+      },
+      {
+        "product_id": "P010",
+        "product_name": "Ceinture Cuir",
+        "category": "Accessoires",
+        "current_stock": 108,
+        "avg_weekly_demand": 3.76,
+        "forecast_4w_demand": 15,
+        "safety_stock": 3,
+        "days_until_stockout": 201,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 10
+      },
+      {
+        "product_id": "P011",
+        "product_name": "Écharpe Soie",
+        "category": "Accessoires",
+        "current_stock": 130,
+        "avg_weekly_demand": 4.681818181818182,
+        "forecast_4w_demand": 19,
+        "safety_stock": 3,
+        "days_until_stockout": 194,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 7
+      },
+      {
+        "product_id": "P012",
+        "product_name": "Lunettes Soleil",
+        "category": "Accessoires",
+        "current_stock": 205,
+        "avg_weekly_demand": 2.96,
+        "forecast_4w_demand": 12,
+        "safety_stock": 3,
+        "days_until_stockout": 485,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 14
+      },
+      {
+        "product_id": "P013",
+        "product_name": "Montre Minimaliste",
+        "category": "Accessoires",
+        "current_stock": 79,
+        "avg_weekly_demand": 3.875,
+        "forecast_4w_demand": 16,
+        "safety_stock": 6,
+        "days_until_stockout": 143,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 14
+      },
+      {
+        "product_id": "P014",
+        "product_name": "Casquette Coton",
+        "category": "Accessoires",
+        "current_stock": 3,
+        "avg_weekly_demand": 4.12,
+        "forecast_4w_demand": 16,
+        "safety_stock": 2,
+        "days_until_stockout": 5,
+        "overstock_risk": "Bas",
+        "reorder_qty": 15,
+        "lead_time_days": 3
+      },
+      {
+        "product_id": "P015",
+        "product_name": "Sneakers Blanches",
+        "category": "Chaussures",
+        "current_stock": 34,
+        "avg_weekly_demand": 4.0,
+        "forecast_4w_demand": 16,
+        "safety_stock": 3,
+        "days_until_stockout": 60,
+        "overstock_risk": "Modéré",
+        "reorder_qty": 0,
+        "lead_time_days": 10
+      },
+      {
+        "product_id": "P016",
+        "product_name": "Mocassins Cuir",
+        "category": "Chaussures",
+        "current_stock": 16,
+        "avg_weekly_demand": 3.0454545454545454,
+        "forecast_4w_demand": 12,
+        "safety_stock": 2,
+        "days_until_stockout": 37,
+        "overstock_risk": "Modéré",
+        "reorder_qty": 0,
+        "lead_time_days": 7
+      },
+      {
+        "product_id": "P017",
+        "product_name": "Sandales Été",
+        "category": "Chaussures",
+        "current_stock": 221,
+        "avg_weekly_demand": 3.5652173913043477,
+        "forecast_4w_demand": 14,
+        "safety_stock": 2,
+        "days_until_stockout": 434,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 5
+      },
+      {
+        "product_id": "P018",
+        "product_name": "Boots Chelsea",
+        "category": "Chaussures",
+        "current_stock": 17,
+        "avg_weekly_demand": 3.3636363636363638,
+        "forecast_4w_demand": 13,
+        "safety_stock": 3,
+        "days_until_stockout": 35,
+        "overstock_risk": "Modéré",
+        "reorder_qty": 0,
+        "lead_time_days": 14
+      },
+      {
+        "product_id": "P019",
+        "product_name": "Crème Hydratante Bio",
+        "category": "Beauté",
+        "current_stock": 197,
+        "avg_weekly_demand": 2.8,
+        "forecast_4w_demand": 11,
+        "safety_stock": 3,
+        "days_until_stockout": 493,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 10
+      },
+      {
+        "product_id": "P020",
+        "product_name": "Sérum Vitamine C",
+        "category": "Beauté",
+        "current_stock": 137,
+        "avg_weekly_demand": 3.619047619047619,
+        "forecast_4w_demand": 14,
+        "safety_stock": 4,
+        "days_until_stockout": 265,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 10
+      },
+      {
+        "product_id": "P021",
+        "product_name": "Parfum Floral 50ml",
+        "category": "Beauté",
+        "current_stock": 138,
+        "avg_weekly_demand": 3.608695652173913,
+        "forecast_4w_demand": 14,
+        "safety_stock": 3,
+        "days_until_stockout": 268,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 5
+      },
+      {
+        "product_id": "P022",
+        "product_name": "Rouge à Lèvres Mat",
+        "category": "Beauté",
+        "current_stock": 40,
+        "avg_weekly_demand": 3.875,
+        "forecast_4w_demand": 16,
+        "safety_stock": 5,
+        "days_until_stockout": 72,
+        "overstock_risk": "Élevé",
+        "reorder_qty": 0,
+        "lead_time_days": 10
+      },
+      {
+        "product_id": "P023",
+        "product_name": "Palette Ombres",
+        "category": "Beauté",
+        "current_stock": 97,
+        "avg_weekly_demand": 3.0454545454545454,
+        "forecast_4w_demand": 12,
+        "safety_stock": 4,
+        "days_until_stockout": 223,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 14
+      },
+      {
+        "product_id": "P024",
+        "product_name": "Shampoing Naturel",
+        "category": "Beauté",
+        "current_stock": 83,
+        "avg_weekly_demand": 4.0,
+        "forecast_4w_demand": 16,
+        "safety_stock": 2,
+        "days_until_stockout": 145,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 5
+      },
+      {
+        "product_id": "P025",
+        "product_name": "Bougie Parfumée",
+        "category": "Maison",
+        "current_stock": 3,
+        "avg_weekly_demand": 2.736842105263158,
+        "forecast_4w_demand": 11,
+        "safety_stock": 3,
+        "days_until_stockout": 8,
+        "overstock_risk": "Bas",
+        "reorder_qty": 11,
+        "lead_time_days": 7
+      },
+      {
+        "product_id": "P026",
+        "product_name": "Coussin Velours",
+        "category": "Maison",
+        "current_stock": 31,
+        "avg_weekly_demand": 2.8636363636363638,
+        "forecast_4w_demand": 11,
+        "safety_stock": 2,
+        "days_until_stockout": 76,
+        "overstock_risk": "Élevé",
+        "reorder_qty": 0,
+        "lead_time_days": 7
+      },
+      {
+        "product_id": "P027",
+        "product_name": "Mug Céramique Artisanal",
+        "category": "Maison",
+        "current_stock": 154,
+        "avg_weekly_demand": 2.4444444444444446,
+        "forecast_4w_demand": 10,
+        "safety_stock": 1,
+        "days_until_stockout": 441,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 5
+      },
+      {
+        "product_id": "P028",
+        "product_name": "Plaid Coton",
+        "category": "Maison",
+        "current_stock": 67,
+        "avg_weekly_demand": 2.619047619047619,
+        "forecast_4w_demand": 10,
+        "safety_stock": 2,
+        "days_until_stockout": 179,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 5
+      },
+      {
+        "product_id": "P029",
+        "product_name": "Vase Design",
+        "category": "Maison",
+        "current_stock": 38,
+        "avg_weekly_demand": 2.789473684210526,
+        "forecast_4w_demand": 11,
+        "safety_stock": 2,
+        "days_until_stockout": 95,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 3
+      },
+      {
+        "product_id": "P030",
+        "product_name": "Set Serviettes Bio",
+        "category": "Maison",
+        "current_stock": 187,
+        "avg_weekly_demand": 2.8181818181818183,
+        "forecast_4w_demand": 11,
+        "safety_stock": 2,
+        "days_until_stockout": 464,
+        "overstock_risk": "Critique",
+        "reorder_qty": 0,
+        "lead_time_days": 5
+      }
+    ],
+    "alerts": [
+      {
+        "type": "demand_spike",
+        "severity": "📈 SPIKE",
+        "message": "Pic de demande détecté: Veste Légère",
+        "product_id": "P003",
+        "action": "Vérifier approvisionnement"
+      },
+      {
+        "type": "demand_spike",
+        "severity": "📈 SPIKE",
+        "message": "Pic de demande détecté: Chemise Lin",
+        "product_id": "P007",
+        "action": "Vérifier approvisionnement"
+      },
+      {
+        "type": "demand_spike",
+        "severity": "📈 SPIKE",
+        "message": "Pic de demande détecté: Montre Minimaliste",
+        "product_id": "P013",
+        "action": "Vérifier approvisionnement"
+      },
+      {
+        "type": "demand_spike",
+        "severity": "📈 SPIKE",
+        "message": "Pic de demande détecté: Sérum Vitamine C",
+        "product_id": "P020",
+        "action": "Vérifier approvisionnement"
+      },
+      {
+        "type": "demand_spike",
+        "severity": "📈 SPIKE",
+        "message": "Pic de demande détecté: Rouge à Lèvres Mat",
+        "product_id": "P022",
+        "action": "Vérifier approvisionnement"
+      },
+      {
+        "type": "stockout",
+        "severity": "🔴 CRITIQUE",
+        "message": "Risque de rupture: Veste Légère (4j restants)",
+        "product_id": "P003",
+        "action": "Commander 15 unités"
+      },
+      {
+        "type": "stockout",
+        "severity": "🔴 CRITIQUE",
+        "message": "Risque de rupture: Robe Été Fleurie (2j restants)",
+        "product_id": "P004",
+        "action": "Commander 17 unités"
+      },
+      {
+        "type": "stockout",
+        "severity": "🔴 CRITIQUE",
+        "message": "Risque de rupture: Casquette Coton (5j restants)",
+        "product_id": "P014",
+        "action": "Commander 15 unités"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: T-Shirt Basique Coton (8.6 mois de stock)",
+        "product_id": "P001",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Short Chino (3.2 mois de stock)",
+        "product_id": "P006",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Chemise Lin (4.7 mois de stock)",
+        "product_id": "P007",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Blazer Casual (9.9 mois de stock)",
+        "product_id": "P008",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Ceinture Cuir (6.6 mois de stock)",
+        "product_id": "P010",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Écharpe Soie (6.4 mois de stock)",
+        "product_id": "P011",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Lunettes Soleil (16.0 mois de stock)",
+        "product_id": "P012",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Montre Minimaliste (4.7 mois de stock)",
+        "product_id": "P013",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Sandales Été (14.3 mois de stock)",
+        "product_id": "P017",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Crème Hydratante Bio (16.2 mois de stock)",
+        "product_id": "P019",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Sérum Vitamine C (8.7 mois de stock)",
+        "product_id": "P020",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Parfum Floral 50ml (8.8 mois de stock)",
+        "product_id": "P021",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Rouge à Lèvres Mat (2.4 mois de stock)",
+        "product_id": "P022",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Palette Ombres (7.4 mois de stock)",
+        "product_id": "P023",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Shampoing Naturel (4.8 mois de stock)",
+        "product_id": "P024",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Coussin Velours (2.5 mois de stock)",
+        "product_id": "P026",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Mug Céramique Artisanal (14.5 mois de stock)",
+        "product_id": "P027",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Plaid Coton (5.9 mois de stock)",
+        "product_id": "P028",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Vase Design (3.1 mois de stock)",
+        "product_id": "P029",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "overstock",
+        "severity": "🟠 SURSTOCK",
+        "message": "Rotation lente: Set Serviettes Bio (15.3 mois de stock)",
+        "product_id": "P030",
+        "action": "Envisager promotion ou réduction de commande"
+      },
+      {
+        "type": "stockout",
+        "severity": "🟡 ATTENTION",
+        "message": "Risque de rupture: Bougie Parfumée (8j restants)",
+        "product_id": "P025",
+        "action": "Commander 11 unités"
+      }
+    ],
+    "n_stockout_alerts": 4,
+    "n_overstock_alerts": 20,
+    "reorder_recommendations": [
+      {
+        "product_id": "P004",
+        "product_name": "Robe Été Fleurie",
+        "reorder_qty": 17,
+        "days_until_stockout": 2
+      },
+      {
+        "product_id": "P003",
+        "product_name": "Veste Légère",
+        "reorder_qty": 15,
+        "days_until_stockout": 4
+      },
+      {
+        "product_id": "P014",
+        "product_name": "Casquette Coton",
+        "reorder_qty": 15,
+        "days_until_stockout": 5
+      },
+      {
+        "product_id": "P025",
+        "product_name": "Bougie Parfumée",
+        "reorder_qty": 11,
+        "days_until_stockout": 8
+      },
+      {
+        "product_id": "P009",
+        "product_name": "Sac Cabas Cuir",
+        "reorder_qty": 12,
+        "days_until_stockout": 15
+      }
+    ]
+  }
+}
