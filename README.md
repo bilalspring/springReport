@@ -13,7 +13,7 @@ Ce POC simule le pipeline complet de l'intelligence d'achat SpringLane :
 ## 📁 Structure du projet
 
 ```
-springlane-intelligence/
+
 ├── springlane/
 │   ├── __init__.py
 │   ├── config.py              # Configuration et constantes
